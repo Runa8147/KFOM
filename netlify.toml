@@ -3,4 +3,4 @@
   publish = "public"  # Set the publish directory
 
 [redirects]
-  /* /index.html  # Redirect all routes to index.html for client-side routing
+  /* /templates/index.html  # Redirect all routes to index.html for client-side routing
