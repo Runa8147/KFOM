@@ -22,7 +22,7 @@ def report():
     return render_template('index.html')
 
 @app.route('/submit_report', methods=['POST'])
-def submit_report():
+def submit_report(debug=True):
     try:
         data = request.json
         # Validate data
